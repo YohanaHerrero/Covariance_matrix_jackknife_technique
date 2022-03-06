@@ -4,6 +4,7 @@ Following the Jackknife technique (spliting parent sample into independent subsa
 ## **What is this repository for?**
 
 When data points are correlated, one can account for this correlation using the jackknife resampling technique and computing the covariance matrix. The jackknife approach requires a division of the sample area into several independent regions, each of which must be large enough to cover the full range of scales under consideration. By excluding each of the divisions (one at a time), measurements are perfomed on each subsample. By carrying out as many measurements as sample divisions, the covariance matrix is calculated, from which error bars are afterwards inferred.
+
 I use polygons to split the data sample, plot the jackknife regions, and the covariance matrix with imshow.
 
 ## **Installing Covariance_matrix_jackknife_technique**
